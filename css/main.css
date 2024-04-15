@@ -87,37 +87,63 @@ textarea {
    Author's custom styles
    ========================================================================== */
    body {
-    background-color: lightgray; /* Change this to the desired background color */
-    text-align: center;
-    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    background-color: #001E1E;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .content-wrapper {
-    display: inline-block;
     text-align: center;
+    background: #00312F;
+    margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
-    background-color: white;
-    width: 255px;
+    width: 350px;
 }
 
 .bio-container img {
-    border-radius: 50%; /* Makes the image round */
-    width: 100px; /* Adjust as needed */
-    height: 100px; /* Adjust as needed */
+    border-radius: 50%;
+    width: 100px;
+     
 }
 
+.bio-container h1 {
+  margin-bottom: 0;
+}
+ .bio-container p {
+  margin-top: 0;
+ }
+
 .location {
-    color: lime; /* Lime green color for location */
+    color: #8bca84;
 }
 
 .links-container {
-    list-style-type: none; /* Removes bullet points */
+    list-style-type: none;
     padding: 0;
 }
 
 ul li a {
-  background-color: lightgray;
+  color: hsl(0, 0%, 100%);
+  display: block;
+  margin: 15px 10px;
+  padding: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: #014848;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: hsl(0, 0%, 20%);
+  margin-top: 20px;
 }
 
 
