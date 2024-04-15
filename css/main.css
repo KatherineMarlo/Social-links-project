@@ -139,6 +139,10 @@ ul li a {
   font-weight: bold;
 }
 
+ul li a:hover {
+  background-color: #8bca84;
+}
+
 footer {
   display: flex;
   justify-content: center;
